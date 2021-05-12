@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -50,10 +52,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
     border-radius: 15px;
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .container .card .content {
@@ -88,6 +90,7 @@ nav {
     transition: 0.5s;
     opacity: 0;
     transform: translateY(-20px);
+    font-family: 'Permanent Marker', cursive;
 }
 
 .container .card:hover .content .contentBX h3 {
@@ -96,7 +99,7 @@ nav {
 }
 
 .container .card:hover .content .contentBX h3 span {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
     text-transform: initial;
 }
